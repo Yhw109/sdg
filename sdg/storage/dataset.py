@@ -13,6 +13,12 @@ from enum import Enum
 class DataType(Enum):
     """Available data types."""
     PYTHON = 'python'
+    TABLE = 'table'
+    IMAGE = 'image'
+    AUDIO = 'audio'
+    VIDEO = 'video'
+    TEXT = 'text'
+    GRAPH = 'graph'
 
 
 class Dataset:

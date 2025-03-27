@@ -2,9 +2,9 @@
 """
 
 from typing import override
-from data_operator.operator import Operator, Field
-from storage.dataset import DataType
-from task.task_type import TaskType
+from .operator import Operator, Field
+from ..storage.dataset import DataType
+from ..task.task_type import TaskType
 import black
 import ast
 import random
